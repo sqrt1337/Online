@@ -25,14 +25,28 @@ body {
     margin-left: 450px;
     margin-top: 50px
 }
+.head p {
+    font-size: 40px;
+    margin-left: 50px
+}
 .body {
     height: 850px;
-    background:black
+    background-image: url('thumb-1920-474206.jpg');
+    background-size: 100% 100%;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.body p {
+    font-size: 25px;
+    color: #03ba03
+}
+.body h1 {
+    font-size: 40px;
+    color: #03ba03
 }
 .column {
     height: 250px;
     width: 300px;
-    background: yellow;
     margin-left: 18px;
     margin-right: 18px;
 }
@@ -78,4 +92,74 @@ body {
 .price {
     margin-left: auto;
     margin-right: auto
+}
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1336px
+}
+input {
+    margin: 0px;
+    padding: 4px 6px;
+    background-color: rgba( 0, 0, 0, 0.4 );
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+    color: white
+}
+.vvod {
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: white
+}
+.sign {
+    width: 1000px;
+    background: #2ec72e;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    box-sizing: border-box
+}
+.sign p {
+    color: white
+}
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background: #d03131;
+    line-height: 20px
+}
+.vvod p {
+    margin-top: 0;
+    margin: 0
+}
+.signleft {
+    width: 400px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto
+}
+.signleft h1 {
+    font-size: 30px;
+    color: blue
+}
+.signright h1 {
+    font-size: 30px;
+    color: blue
+}
+.signright {
+    width: 400px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+     text-align: center
+}
+.signright button {
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
